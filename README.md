@@ -1,7 +1,9 @@
-# Occidente · SINPE recibidos
+# Occidente · SINPE del día
 
-Página móvil publicada con GitHub Pages. Muestra los SINPE de hoy según la hora de Costa Rica, con búsqueda por nombre, monto y referencia visible. Todos se muestran como SINPE recibido: no hay comprobación manual, aprobación ni solicitud de seis dígitos.
+Página móvil en GitHub Pages. Muestra transferencias de hoy, hora de Costa Rica, con búsqueda por nombre, monto y referencia.
 
-Los datos se sincronizan con Firebase. El nombre seleccionado de la vendedora se recuerda localmente y es opcional para consultar. No equivale a autenticación. El administrador gestiona las vendedoras desde el sistema principal.
+La vendedora selecciona su nombre, toca un SINPE y pulsa Comprobar. No ingresa dígitos. Firebase guarda su ID, nombre y hora mediante una transacción para impedir comprobaciones duplicadas. El administrador ve esos datos en Historial de SINPE.
 
-El SMS original y los secretos de conexión no se exponen en esta página. No hay credenciales privadas en el repositorio.
+El nombre se recuerda en el navegador. La selección es una identificación declarada, no un inicio de sesión. Los administradores pueden agregar, editar y eliminar vendedoras; el nombre histórico de una comprobación se conserva.
+
+No se incluyen claves privadas ni se publica el SMS original.
